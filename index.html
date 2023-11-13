@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan and Rima's Journeys</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="navbar" class="top-nav">
+      <div class="flaggy">
+        <p>Nathan and Rima's Journeys</p>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#photos">Photo Gallery</a>
+        </li>
+        <li class="no-line" style="margin-left: 0; padding-left: 0">
+          <a
+            href="https://www.youtube.com/@nathanandrimasjourneys"
+            target="_blank"
+            ><img
+              src="../Nathan and Rima's Website/images/youtube-logo-hd-8.png"
+            />
+          </a>
+        </li>
+        <li class="no-line">
+          <a href="#" target="_blank"
+            ><img src="../Nathan and Rima's Website/images/patty.png" />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="who">
+      <p>
+        We are <span class="typed-text"></span
+        ><span class="cursor">&nbsp;</span>
+      </p>
+      <button id="myBtn">Click Here to Contact Us</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Contact Nathan and Rima</h2>
+          <form
+            action="mail_handler.php"
+            method="post"
+            name="form"
+            class="form-box"
+            onsubmit="return checkform(this);"
+          >
+            <label for="name">Name:</label><br />
+            <input
+              type="text"
+              name="name"
+              autocomplete="off"
+              class="inp"
+              placeholder="Please Enter Your Name"
+              required
+            /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              name="email"
+              autocomplete="off"
+              class="inp"
+              placeholder="Please Enter Your Email"
+            /><br />
+            <label for="message">Message:</label><br />
+            <textarea
+              name="msg"
+              class="msg-box"
+              placeholder="Please Enter Your Message"
+              required
+            ></textarea
+            ><br />
+            <div class="capbox">
+              <div id="CaptchaDiv"></div>
+              <div class="capbox-inner">
+                Type the number:<br />
+                <input type="hidden" id="txtCaptcha" />
+                <input
+                  type="text"
+                  name="CaptchaInput"
+                  id="CaptchaInput"
+                /><br />
+              </div>
+            </div>
+            <br />
+            <input
+              type="submit"
+              id="worky"
+              name="submit"
+              value="Submit"
+              class="sub-btn"
+              style="cursor: pointer"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <section id="methree">
+      <h1 id="me">Why do we do this?</h1>
+      <p id="what">
+        Nathan and Rima enjoy documenting their journeys together and to share
+        their experiences in Russia (Where they currently are.) as an American
+        and Filipina or elsewhere in the world. They both love to travel to new
+        places and enjoy the local atmosphere and cuisine as well as get
+        acquainted with the local customs and culture. The main reason why they
+        like to share their experiences is to give other people an idea of what
+        some of these other places have to offer to the rest of the world and to
+        also share the culture and experiences of the people that they have
+        visited. They have been to and have seen places all over the world from
+        America all the way to Europe and Asia and there are many interesting
+        sights and sounds that deserve to be recognized and praised by other
+        people and the only way to get their stories across is by videoing it
+        and sharing it to others on platforms such as YouTube. They are always
+        happy and excited to be able to capture whatever life wants to throw at
+        them and feel that they should always remain positive no matter what the
+        outcome of it might possibly be. They may not always post weekly, but
+        that is because of their personal lives do not always allow them to be
+        able to document the realities of what is occurring around them at that
+        moment, but they always try to find something interesting that can be
+        shared and will always share it. So they hope that you will enjoy this
+        ride of their journeys together with them and will always find
+        happiness.<br /><br />
+        Nathan and Rima do their best with the equipment that they have and with
+        your help they could get better equipment and software to make their
+        videos with and to be able to go to different places and hopefully
+        interview some people there. It would be greatly appreciated if you
+        could support them in making their dreams come true. Your support could
+        be as simple as subscribing to their channel and liking and sharing
+        their videos and while it is not your responsibility to support us
+        whatsoever any donations would be received with great thanks. If you do
+        decide to donate to Nathan and Rima you would get credited in their
+        videos with depending on how much you donate to them. You can donate to
+        them by simply going to our Patreon page and subscribing by clicking
+        on the “P” on the menu on the top or on the bottom of this webpage and
+        decide which level you want to give your support and donation to. If you
+        have a product that you want us to sponsor for you or your company,
+        please click on the “Contact Us” button above and they will be happy to
+        discuss the sponsorship with you. They hope that you will consider
+        helping them in their journeys and their dreams by making this a full
+        time job for them and they promise that you will not be disappointed.<br /><br />
+        Everyone has that spark and curiosity in them about traveling and
+        exploring new places and cultures all the way from our ancestors leaving
+        Africa many thousands of years ago to all the way to Neil Armstrong and
+        all the other Apollo Moon astronaut explorers and at this moment in
+        human exploration we are looking ever further off this planet and into
+        the deepest darkest areas of space to explore and settle with Mars close
+        on the horizon. It is within our genes to have an urge to learn more
+        about the places we live in and the need to try anything and everything
+        even if it brings great risk to ourselves and it is with that attitude
+        of our ancestors that Nathan and Rima will bring to you. How about it?
+        Will you join Nathan and Rima on this journey through life?
+      </p>
+    </section>
+    <section id="meOne">
+      <h1 id="me">A Little Bit About Us</h1>
+      <div id="one">
+        <div class="left">
+          <h1>Nathan</h1>
+          <p>
+            Nathan was born in the Midwest of the United States. He enjoys
+            traveling and blogging and that is why he along with Rima set up
+            their YouTube channel for other people to enjoy the scenery. He also
+            enjoys playing video games mainly fantasy games and R.P.G.s in
+            general. Nathan also likes to listen to music of any type as well as
+            watching Sci-Fi movies and TV shows. Whenever Nathan travels he
+            likes to experience the local culture and cuisine so he can feel
+            what it is like to live there even if for a short time. Nathan as
+            always looks forward to hearing from you either on the website or
+            from the YouTube channel.
+          </p>
+        </div>
+        <div class="right">
+          <h1>Rima</h1>
+          <p>
+            Rima was born in Manila, Philippines and she has been all around
+            Europe and Asia. She has been to Hong Kong and Malaysia as well as
+            the Maldives. Rima now lives in Russia with Nathan and she has been
+            here since 2007. While Rima has been in Russia she has built up for
+            herself a community and an organization; an organization that is
+            recognized by the Philippine embassy in Russia. She also likes to
+            help out people when they have some sort of emergency. When Rima is
+            not working she likes to spend time with Burnok and also watching
+            Filipino shows on YouTube.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos">
+      <h1 id="me" style="color: red">The Countries We Have Visited</h1>
+      <div class="resume">
+        <div class="card">
+          <h3 style="text-align: center">Asia</h3>
+          <ul>
+            <li>China</li>
+            <li class="mtop">Hong Kong</li>
+            <li class="mtop">Israel</li>
+            <li class="mtop">Japan</li>
+            <li class="mtop">Qatar</li>
+            <li class="mtop">Thailand</li>
+            <li class="mtop">The Philippines</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="text-align: center">Europe</h3>
+          <ul>
+            <li><button id="myBtnArmenia">Armenia</button></li>
+            <li class="mtop">Austria</li>
+            <li class="mtop">France</li>
+            <li class="mtop">Norway</li>
+            <li class="mtop"><button id="myBtnRussia">Russia</button></li>
+            <li class="mtop">Spain</li>
+            <li class="mtop">Switzerland</li>
+            <li class="mtop">United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="resume resume1">
+        <div class="card">
+          <h3 style="text-align: center">North America</h3>
+          <ul>
+            <li>Canada</li>
+            <li class="mtop">United States of America</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 style="text-align: center">Elsewhere</h3>
+          <ul>
+            <li class="mtop">Bermuda</li>
+            <li class="mtop">Iceland</li>
+            <li class="mtop">Maldives</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div id="email" class="item">
+        <p>Copyright &copy;2023</p>
+      </div>
+      <div id="copy" class="item">
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div id="social" class="item">
+        <a
+          href="https://www.youtube.com/@nathanandrimasjourneys"
+          target="_blank"
+          ><img
+            src="../Nathan and Rima's Website/images/youtube-logo-hd-8.png"
+          />
+        </a>
+        <a href="#" target="_blank"
+          ><img src="../Nathan and Rima's Website/images/Instagram logo.png"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="../Nathan and Rima's Website/images/patty.png" />
+        </a>
+      </div>
+    </footer>
+    <div style="margin-bottom: 25px"></div>
+    <div id="armenia" class="modal2">
+      <div class="modal-content2">
+        <span class="close2">&times;</span>
+        <img
+          class="picture"
+          src="../Nathan and Rima's Website/images/temple.jpg"/>
+          <div class="text">At the Temple of Garni</div>
+      </div>
+    </div><br>
+    <div id="russia" class="modal3">
+      <div class="modal-content3">
+        <span class="close3">&times;</span>
+        <img
+          class="picture"
+          src="../Nathan and Rima's Website/images/sunset.jpeg"/>
+          <div class="text">Walking into the sunset<br>at the Kremlin in Moscow</div>
+      </div>
+    </div>
+    <script text="javascript" src="./js/main.js"></script>
+  </body>
+</html>
